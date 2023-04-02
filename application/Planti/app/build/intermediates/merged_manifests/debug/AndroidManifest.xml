@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubham.introslider"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.shubham.introslider.grd"
+            android:label="Grapes"
+            android:parentActivityName="com.shubham.introslider.log" >
+        </activity>
+        <activity
+            android:name="com.shubham.introslider.grc"
+            android:label="Grapes"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.pod"
+            android:label="Potato"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.poc"
+            android:label="Potato"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.mud"
+            android:label="Mulberry"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.muc"
+            android:label="Mulberry"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.std"
+            android:label="Strawberry"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.stc"
+            android:label="Strawberry"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.led"
+            android:label="Lemon"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.lec"
+            android:label="Lemon"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.cherryc"
+            android:label="Cherry"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity
+            android:name="com.shubham.introslider.cherryd"
+            android:label="Cherry"
+            android:parentActivityName="com.shubham.introslider.log" />
+        <activity android:name="com.shubham.introslider.weather" />
+        <activity android:name="com.shubham.introslider.po" />
+        <activity android:name="com.shubham.introslider.le" />
+        <activity android:name="com.shubham.introslider.mu" />
+        <activity android:name="com.shubham.introslider.ch" />
+        <activity android:name="com.shubham.introslider.gr" />
+        <activity android:name="com.shubham.introslider.st" />
+        <activity android:name="com.shubham.introslider.search" />
+        <activity android:name="com.shubham.introslider.disease" />
+        <activity android:name="com.shubham.introslider.BaseActivity" />
+        <activity android:name="com.shubham.introslider.log" />
+        <activity android:name="com.shubham.introslider.ActivityHome" />
+        <activity
+            android:name="com.shubham.introslider.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.shubham.introslider.com.squareup.picasso"
+            android:exported="false" />
+    </application>
+
+</manifest>

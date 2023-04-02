@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    tools:context=".search">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/merriweather_light"
+                android:gravity="center"
+                android:text="Pests"
+                android:textColor="#07650A"
+               android:textSize="30dp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="215dp">
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="wrap_content"
+                android:layout_height="0.8in"
+                app:cardCornerRadius="8dp"
+                android:layout_gravity="center"
+                app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="-95dp"
+                        android:src="@drawable/wea" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-60dp"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/merriweather_bold_talic"
+                        android:gravity="left"
+                        android:text="Weather Report"
+                        android:textColor="#BE105A13"
+                        android:textSize="13dp"
+                        />
+                </LinearLayout>
+            </soup.neumorphism.NeumorphCardView>
+            </GridLayout>
+
+
+       <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardElevation="2dp">
+                <include layout="@layout/n" />
+
+        </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardElevation="2dp">
+                <include layout="@layout/o" />
+
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:cardElevation="2dp">
+                <include layout="@layout/m" />
+
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="140dp"
+                app:cardElevation="2dp">
+                <include layout="@layout/p" />
+
+            </soup.neumorphism.NeumorphCardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:labelVisibilityMode="unlabeled"
+        android:id="@+id/bottom_navigation"
+        app:itemIconTint="@color/icons_color"
+        app:menu="@menu/navigation_items">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

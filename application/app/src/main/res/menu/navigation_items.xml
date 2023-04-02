@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/homeId"
+    android:icon="@drawable/ic_outline_compost_24"
+    android:title="Your Crops"/>
+    <item android:id="@+id/searchId"
+        android:icon="@drawable/ic_outline_bug_report_24"
+        android:title="Pests"/>
+
+    <item android:id="@+id/f"
+        android:icon="@drawable/ic_outline_camera_24"
+        android:title="Disease"/>
+
+</menu>

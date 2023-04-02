@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <soup.neumorphism.NeumorphButton
+        style="@style/Widget.Neumorph.Button"
+        android:id="@+id/tvSkip"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textColor="#0C6805"
+        android:fontFamily="@font/merriweather_italic"
+        android:text="Skip"
+        android:textSize="15dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintStart_toStartOf="parent"/>
+
+
+      <soup.neumorphism.NeumorphButton
+          style="@style/Widget.Neumorph.Button"
+          android:id="@+id/tvNext"
+          android:layout_margin="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="70dp"
+          android:text="Next"
+          android:textColor="#0C6805"
+          android:textSize="15dp"
+          android:fontFamily="@font/merriweather_italic"
+
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

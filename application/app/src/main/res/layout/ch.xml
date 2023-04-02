@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/c1"
+    tools:context=".ch">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merriweather_light"
+        android:textColor="#ffffff"
+        android:text="25°C - 32°C "
+        android:textSize="35dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/merriweather_bold_talic"
+        android:text="Suitable Weather "
+        android:textColor="#ffffff"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right">
+
+    <ImageView
+        android:layout_width="425dp"
+        android:layout_height="188dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.1">
+
+    </ImageView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="90dp"
+    android:layout_gravity="right"
+    android:alpha="0.7"
+    android:layout_marginTop="-60dp"
+    android:background="@drawable/b"
+    android:orientation="horizontal"
+    android:layout_weight="0.04">
+
+    <Button
+        android:id="@+id/angry_btn"
+        android:layout_gravity="center"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/bu"
+        android:shadowColor="#00000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="CULTURE"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+
+    <Button
+        android:id="@+id/angry_btnn"
+        android:layout_gravity="center"
+
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bu"
+        android:shadowColor="#00000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="DETAIL"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.9">
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merriweather_bold"
+        android:text="Cherry"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/merriweather_bold_talic"
+        android:text="Prunus avium"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+</LinearLayout>
+
+<com.skyhope.showmoretextview.ShowMoreTextView
+    android:id="@+id/teee"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="3.5"
+    android:layout_marginBottom="35dp"
+    android:text="Cherry trees generally start bearing fruit in their fourth year; dwarf trees bear fruit a year earlier. One mature, standard-size tart or sweet cherry tree will produce 30 to 50 quarts of cherries each year; a dwarf tree, about 10 to 15 quarts.\nCherries are a colorful summer staple featured in Pies, Jams, or enjoyed on their own as a light snack.\nCherries are particularly lovely fruit trees the blossoms are beautiful (the reason for cherry blossom festivals all over the world each year),\n the fruit is tasty, and the trees are quite easy to grow, with just a little care and knowledge.\n\n 1 cup of fresh cherries contains:\n\n✓   Calories  :  95\n✓   Protein  :  1.6 grams (g)\n✓   Fat  :  0.3 g\n✓   Carbohydrate  :  24 g\n✓   Fiber  :  3.2 g (making them a good source)\n✓   Sugars  :  19.2 g\n✓   Calcium  :  20 milligrams (mg)\n✓   Iron  :  0.5 mg\n✓   Magnesium  :  17 mg\n✓   Potassium  :  333 mg\n✓   Vitamin-C  :  10.5 mg (making them a good source)     "
+    android:fontFamily="@font/merriweather_light"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

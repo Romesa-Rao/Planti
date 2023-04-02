@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:background="@drawable/l1"
+    tools:context=".lec">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:layout_width="425dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_weight="0.1">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_gravity="right"
+        android:alpha="0.7"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/b"
+        android:orientation="horizontal"
+        android:layout_weight="0.04">
+
+        <Button
+            android:id="@+id/angry_btn"
+            android:layout_gravity="center"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/merriweather_bold"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/bu"
+            android:shadowColor="#00000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Detail"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="Growing"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <com.skyhope.showmoretextview.ShowMoreTextView
+        android:id="@+id/te"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:background="#8F000000"
+        android:layout_marginBottom="35dp"
+        android:text="\n ✓    A few weeks after planting, and for the first few years (before fruit-bearing age), feed the tree a balanced (such as 10-10-10) fertilizer. Learn more about soil amendments and preparing soil for planting.
+\n\n ✓    For newly fruit-bearing trees, provide nutrients to continue branch and leaf growth, but also to replace nutrients lost by fruit forming. A “citrus blend” fertilizer is ideal.
+\n\n ✓    Check manufacturers directions, ask a garden nursery, or consult your local cooperative extension as to how often and how much fertilizer to apply during each year of a tree’s growth.
+\n\n ✓    Because of citrus shallow roots, mulches are not recommended for citrus trees. If the trees are located in a cultivated garden bed where mulch is used, keep at least 12 inches of bare ground between the tree trunk and the mulch. Pre-emergent herbicides (NOT post-emergent) may be used sparingly around mature trees to prevent weed seeds from germinating, but hand-weeding is preferred. (If using herbicides, be sure to follow dosage and application instructions carefully.)
+\n\n ✓    Do not plant groundcover plants around the base of citrus trees, as the trees have shallow roots that will struggle to compete for nutrients.
+\n\n ✓    Citrus trees bloom in the spring and fruit starts to develop shortly thereafter.
+\n\n ✓    Fruit thinning is unnecessary for citrus trees, as they typically experience something called the “June drop.” In late spring or early summer (May or June for most of the country), citrus trees naturally drop a number of their immature fruit, which allows the tree to focus its energy on maturing the rest of its fruit."
+        android:fontFamily="@font/merriweather_italic"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubham.introslider">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".grd"
+            android:label="Grapes"
+            android:parentActivityName=".log">
+        </activity>
+        <activity android:name=".grc"
+            android:label="Grapes"
+            android:parentActivityName=".log"/>
+        <activity android:name=".pod"
+            android:label="Potato"
+            android:parentActivityName=".log"/>
+        <activity android:name=".poc"
+            android:label="Potato"
+            android:parentActivityName=".log"/>
+        <activity android:name=".mud"
+            android:label="Mulberry"
+            android:parentActivityName=".log"/>
+        <activity android:name=".muc"
+            android:label="Mulberry"
+            android:parentActivityName=".log"/>
+        <activity android:name=".std"
+            android:label="Strawberry"
+            android:parentActivityName=".log"/>
+        <activity android:name=".stc"
+            android:label="Strawberry"
+            android:parentActivityName=".log"/>
+        <activity android:name=".led"
+            android:label="Lemon"
+            android:parentActivityName=".log"/>
+        <activity android:name=".lec"
+            android:label="Lemon"
+            android:parentActivityName=".log"/>
+        <activity android:name=".cherryc"
+            android:label="Cherry"
+            android:parentActivityName=".log"/>
+        <activity android:name=".cherryd"
+            android:label="Cherry"
+            android:parentActivityName=".log"/>
+        <activity android:name=".weather" />
+        <activity android:name=".po" />
+        <activity android:name=".le" />
+        <activity android:name=".mu" />
+        <activity android:name=".ch" />
+        <activity android:name=".gr" />
+        <activity android:name=".st" />
+        <activity android:name=".search" />
+        <activity android:name=".disease" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".log" />
+        <activity android:name=".ActivityHome" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

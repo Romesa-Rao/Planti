@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#4A814C</color>
+    <color name="green">#1E6C20</color>
+
+
+    // dots inactive colors
+    <color name="dark_one">#ffffff</color>
+    <color name="dark_two">#ffffff</color>
+    <color name="dark_three">#ffffff</color>
+
+    // dots active colors
+    <color name="orange_one">#4A814C</color>
+    <color name="orange_two">#4A814C</color>
+    <color name="orange_three">#4A814C</color>
+
+    <array name="active">
+        <item>@color/orange_one</item>
+        <item>@color/orange_two</item>
+        <item>@color/orange_three</item>
+    </array>
+
+    <array name="inactive">
+        <item>@color/dark_one</item>
+        <item>@color/dark_two</item>
+        <item>@color/dark_three</item>
+    </array>
+
+
+</resources>

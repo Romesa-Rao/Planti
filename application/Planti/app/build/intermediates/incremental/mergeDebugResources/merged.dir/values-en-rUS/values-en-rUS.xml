@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Welcome">Welcome</string>
+    <string name="about"> About</string>
+    <string name="app_name">Planti</string>
+    <string name="changeLang">Change Language</string>
+    <string name="food"><b>	•You Should Eat</b> \nBreast cancer can start in different places, grow in different ways, and require different kinds of treatment. Just as particular types of cancer respond better to certain treatments, some cancers respond well to specific foods. \nThe following foods can play a role in a healthful diet in general, and they may also help prevent the development or progression of breast cancer: \n‣Dark/Green leafy Vegetables, such as Kale and Broccoli. \n‣Fruits, especially Berries and Peaches. \n‣Beans, Pulses, Fish, Eggs, and some meat \n‣Low fat milk and dairy products. \n‣Soybean-based products such as: \nTofu,Tempeh,Edamame,Soy milk,Soy nuts <b> \n\n •You Should Avoid</b> \nFoods that may increase the riskTrusted Source of different kinds of cancer, including breast cancer, include: \n‣Alcohol \n‣Added sugar \n‣Fat \n‣Red meat \n‣Processed foods
+    </string>
+    <string name="fruit">Fruit/Veg</string>
+    <string name="lo">Breast cancer is a disease in which cells in the breast grow out of control. Breast cancer can begin in different parts of the breast and spread outside the breast through blood vessels and lymph vessels.Breast cancer is second leading cancer death in women.\nThe disease occurs almost entirely in <b>Women</b>,but <b>Men</b> can get it, too   </string>
+    <string name="login">Login</string>
+    <string name="mammography">Mammography</string>
+    <string name="o">Mammography (also called mastography) is the process of using low-energy X-rays (usually around 30 kVp) to examine the human breast for diagnosis and screening.The goal of mammography is the early detection of breast cancer.
+        <b>\n• Right age to do mammography.</b> \nWe recommend mammogram screening to start no earlier than age 40. Women ages 40 to 44 should have the choice to start annual breast cancer screening with mammograms (x-rays of the breast) if they wish to do so. Women age 45 to 54 should get mammograms every year. Women 55 and older should switch to mammograms every 2 years, or can continue yearly screening</string>
+    <string name="self_examin">Self Examin</string>
+    <string name="st"><b> Breast cancer stage is from 0 to 4.</b><b>\n‣Stage 0 </b>\nBreast cancer has been diagnosed early. It started in the breast ducts or milk glands and has stayed there.<b>\n‣Stage 1 </b>\nStarting at this level, breast cancer is called invasive, meaning it has broken free to attack healthy tissue.<b>\n‣Stage 2</b>\nIn this stage the breast cancer has grown, spread or both.<b>\n‣Stage 3 </b>\nIn this stage breast cancer has not spread to bones or organs, but it’s considered advanced, and it’s harder to fight.<b>\n‣Stage 4</b> \nBreast cancer cells have spread far away from the breast and lymph nodes right around it. The most common sites for spreading are the bones, lungs, liver, and brain. This stage is described as “metastatic,” meaning it has spread beyond the region of the body where it was first found.<br/>
+    </string>
+    <string name="stage">Stages</string>
+    <string name="start">Start</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s1"
+    tools:context=".std">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:layout_width="425dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_weight="0.1">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_gravity="right"
+        android:alpha="0.7"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/b"
+        android:orientation="horizontal"
+        android:layout_weight="0.04">
+
+        <Button
+            android:id="@+id/angry_btnn"
+            android:layout_gravity="center"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/merriweather_bold"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/bu"
+            android:shadowColor="#00000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="CULTURE"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/merriweather_bold"
+            android:text="How to Plant?"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <com.skyhope.showmoretextview.ShowMoreTextView
+        android:id="@+id/tee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:background="#8F000000"
+        android:layout_marginBottom="35dp"
+        android:text="\n ✓    Provide adequate space for sprawling. Set plants out 18 inches (1-1/2 feet) apart to leave room for runners and leave 4 feet between rows. Strawberries are sprawling plants. Seedlings will send out runners, which in turn will send out their own runners.
+\n\n ✓    Make planting holes deep and wide enough to accommodate the entire root system without bending it. However, don’t plant too deep! The roots should be covered, but the crown should be right at the soil surface. It is very important that you do NOT bury the crown (central growing bud) of the plant or it could rot. The leaves, flowers, and fruit must be exposed to light and fresh air.
+\n\n ✓    To settle their roots into the soil, water plants well at the time of planting.
+\n\n ✓    It is also possible to grow strawberries from last years runners."
+        android:fontFamily="@font/merriweather_italic"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>

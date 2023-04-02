@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\romes\\Planti\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\romes\\.gradle\\caches\\transforms-2\\files-2.1\\7e2fb38e9258e6b9ad8be991514af8e9\\jetified-neumorphism-0.2.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,123,205,287,383,483,575",
+                        "endColumns": "67,81,81,95,99,91,105",
+                        "endOffsets": "118,200,282,378,478,570,676"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "687,755,837,919,1015,1115,1207",
+                        "endColumns": "67,81,81,95,99,91,105",
+                        "endOffsets": "750,832,914,1010,1110,1202,1308"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\romes\\.gradle\\caches\\transforms-2\\files-2.1\\0cb9ff486f5edb59977e253831b932c8\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,16",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,1313",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,1397"
+                    }
+                }
+            ]
+        }
+    ]
+}
